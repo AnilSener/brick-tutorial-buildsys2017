@@ -1,0 +1,250 @@
+@prefix bf: <https://brickschema.org/schema/1.0.1/BrickFrame#> .
+@prefix brick: <https://brickschema.org/schema/1.0.1/Brick#> .
+@prefix ex: <http://example.com#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:BLDA.AH1.CHWR1-T a brick:Chilled_Water_Return_Temperature_Sensor ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:AH1 .
+
+ex:BLDA.AH1.CHWR2-T a brick:Chilled_Water_Return_Temperature_Sensor ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:AH1 .
+
+ex:BLDA.AH1.CLG-VLV1 a brick:Cooling_Valve_Command ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:AH1 .
+
+ex:BLDA.AH1.CLG-VLV2 a brick:Cooling_Valve_Command ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:AH1 .
+
+ex:BLDA.RF1.DIRECTION a brick:Run_Direction_Status ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:RF1 .
+
+ex:BLDA.RF1.FAULT a brick:Fault_Status ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:RF1 .
+
+ex:BLDA.RF2.DIRECTION a brick:Run_Direction_Status ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:RF2 .
+
+ex:BLDA.RF2.FAULT a brick:Fault_Status ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:RF2 .
+
+ex:BLDA.RM-1100A..ACTCLGSP a brick:Effective_Cooling_Temperature_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A ;
+    bf:isPointOf ex:VAV_RM-1100A .
+
+ex:BLDA.RM-1100A..ACTHTGSP a brick:Effective_Heating_Temperature_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A ;
+    bf:isPointOf ex:VAV_RM-1100A .
+
+ex:BLDA.RM-1100A..CLGMAXFLO a brick:Cooling_Min_Discharge_Air_Flow_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A ;
+    bf:isPointOf ex:VAV_RM-1100A .
+
+ex:BLDA.RM-1100A..DPR-C a brick:Damper_Command ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A ;
+    bf:isPointOf ex:VAV_RM-1100A .
+
+ex:BLDA.RM-1100A..HTGFLOW a brick:Occupied_Heating_Discharge_Air_Flow_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A ;
+    bf:isPointOf ex:VAV_RM-1100A .
+
+ex:BLDA.RM-1100A..OCC-CMD a brick:Occupied_Command ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A ;
+    bf:isPointOf ex:VAV_RM-1100A .
+
+ex:BLDA.RM-1100A..RH-VLV a brick:Reheat_Valve_Command ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A ;
+    bf:isPointOf ex:VAV_RM-1100A .
+
+ex:BLDA.RM-1100A..SUP-FLOW a brick:Supply_Air_Flow_Sensor ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A ;
+    bf:isPointOf ex:VAV_RM-1100A .
+
+ex:BLDA.RM-1100A..SUPFLO-SP a brick:Supply_Air_Flow_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A ;
+    bf:isPointOf ex:VAV_RM-1100A .
+
+ex:BLDA.RM-1100D..ACTCLGSP a brick:Effective_Cooling_Temperature_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100D ;
+    bf:isPointOf ex:VAV_RM-1100D .
+
+ex:BLDA.RM-1100D..ACTHTGSP a brick:Effective_Heating_Temperature_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100D ;
+    bf:isPointOf ex:VAV_RM-1100D .
+
+ex:BLDA.RM-1100D..CLGMAXFLO a brick:Cooling_Min_Discharge_Air_Flow_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100D ;
+    bf:isPointOf ex:VAV_RM-1100D .
+
+ex:BLDA.RM-1100D..DPR-C a brick:Damper_Command ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100D ;
+    bf:isPointOf ex:VAV_RM-1100D .
+
+ex:BLDA.RM-1100D..HTGFLOW a brick:Occupied_Heating_Discharge_Air_Flow_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100D ;
+    bf:isPointOf ex:VAV_RM-1100D .
+
+ex:BLDA.RM-1100D..OCC-CMD a brick:Occupied_Command ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100D ;
+    bf:isPointOf ex:VAV_RM-1100D .
+
+ex:BLDA.RM-1100D..RH-VLV a brick:Reheat_Valve_Command ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100D ;
+    bf:isPointOf ex:VAV_RM-1100D .
+
+ex:BLDA.RM-1100D..SUP-FLOW a brick:Supply_Air_Flow_Sensor ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100D ;
+    bf:isPointOf ex:VAV_RM-1100D .
+
+ex:BLDA.RM-1100D..SUPFLO-SP a brick:Supply_Air_Flow_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100D ;
+    bf:isPointOf ex:VAV_RM-1100D .
+
+ex:BLDA.RM-2150..ACTCLGSP a brick:Effective_Cooling_Temperature_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-2150 ;
+    bf:isPointOf ex:VAV_RM-2150 .
+
+ex:BLDA.RM-2150..ACTHTGSP a brick:Effective_Heating_Temperature_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-2150 ;
+    bf:isPointOf ex:VAV_RM-2150 .
+
+ex:BLDA.RM-2150..CLGMAXFLO a brick:Cooling_Min_Discharge_Air_Flow_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-2150 ;
+    bf:isPointOf ex:VAV_RM-2150 .
+
+ex:BLDA.RM-2150..DPR-C a brick:Damper_Command ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-2150 ;
+    bf:isPointOf ex:VAV_RM-2150 .
+
+ex:BLDA.RM-2150..HTGFLOW a brick:Occupied_Heating_Discharge_Air_Flow_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-2150 ;
+    bf:isPointOf ex:VAV_RM-2150 .
+
+ex:BLDA.RM-2150..OCC-CMD a brick:Occupied_Command ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-2150 ;
+    bf:isPointOf ex:VAV_RM-2150 .
+
+ex:BLDA.RM-2150..RH-VLV a brick:Reheat_Valve_Command ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-2150 ;
+    bf:isPointOf ex:VAV_RM-2150 .
+
+ex:BLDA.RM-2150..SUP-FLOW a brick:Supply_Air_Flow_Sensor ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-2150 ;
+    bf:isPointOf ex:VAV_RM-2150 .
+
+ex:BLDA.RM-2150..SUPFLO-SP a brick:Supply_Air_Flow_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-2150 ;
+    bf:isPointOf ex:VAV_RM-2150 .
+
+ex:BLDA.SF1.DIRECT-CMD a brick:Run_Direction_Command ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:SF1 .
+
+ex:BLDA.SF1.DIRECTION a brick:Run_Direction_Status ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:SF1 .
+
+ex:BLDA.SF1.FAULT a brick:Fault_Status ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:SF1 .
+
+ex:BLDA.SF2.DIRECT-CMD a brick:Run_Direction_Command ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:SF2 .
+
+ex:BLDA.SF2.DIRECTION a brick:Run_Direction_Status ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:SF2 .
+
+ex:BLDA.SF2.FAULT a brick:Fault_Status ;
+    bf:hasLocation ex:BLDA ;
+    bf:isPointOf ex:SF2 .
+
+ex:RM-1100 a brick:Room ;
+    bf:isPartOf ex:RM-1100A,
+        ex:RM-1100D .
+
+ex:RM-2151 a brick:Room ;
+    bf:isPartOf ex:RM-2150 .
+
+ex:RM-2152 a brick:Room ;
+    bf:isPartOf ex:RM-2150 .
+
+ex:W-C-ADJ a brick:Warm_Cool_Adjust_Setpoint ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A,
+        ex:RM-1100D,
+        ex:RM-2150 .
+
+ex:RF1 a brick:Return_Fan ;
+    bf:hasLocation ex:BLDA .
+
+ex:RF2 a brick:Return_Fan ;
+    bf:hasLocation ex:BLDA .
+
+ex:SF1 a brick:Supply_Fan ;
+    bf:hasLocation ex:BLDA .
+
+ex:SF2 a brick:Supply_Fan ;
+    bf:hasLocation ex:BLDA .
+
+ex:AH1 a brick:AHU ;
+    bf:feeds ex:VAV_RM-1100A,
+        ex:VAV_RM-1100D,
+        ex:VAV_RM-2150 ;
+    bf:hasLocation ex:BLDA .
+
+ex:VAV_RM-1100A a brick:VAV ;
+    bf:feeds ex:RM-1100A .
+
+ex:VAV_RM-1100D a brick:VAV ;
+    bf:feeds ex:RM-1100D .
+
+ex:VAV_RM-2150 a brick:VAV ;
+    bf:feeds ex:RM-2150 .
+
+ex:RM-1100A a brick:HVAC_Zone .
+
+ex:RM-1100D a brick:HVAC_Zone .
+
+ex:RM-2150 a brick:HVAC_Zone .
+
+ex:BLDA a brick:Building .
+
