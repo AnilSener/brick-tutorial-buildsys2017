@@ -7,7 +7,17 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ex:AHU-1 a brick:AHU ;
+    bf:feeds brick:VAV-2150 ;
     bf:isLocatedIn ex:Room-B100 .
 
+ex:ZNT-2150 a brick:Zone_Temperature_Sensor ;
+    bf:isLocatedIn ex:Zone-2150 ;
+    bf:isPointOf ex:VAV-2150 .
+
 ex:Room-B100 a brick:Basement .
+
+ex:VAV-2150 a brick:VAV ;
+    bf:feeds ex:Zone-2150 .
+
+ex:Zone-2150 a brick:HVAC_Zone .
 
