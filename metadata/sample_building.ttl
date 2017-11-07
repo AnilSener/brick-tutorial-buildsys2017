@@ -41,6 +41,12 @@ ex:BLDA.RM-1100A..ACTHTGSP a brick:Effective_Heating_Temperature_Setpoint ;
         ex:RM-1100A ;
     bf:isPointOf ex:VAV_RM-1100A .
 
+ex:BLDA.RM-1100A..COMMONSP a brick:Zone_Temperature_Setpoint ;
+    brick:hasUuid "18" ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100A ;
+    bf:isPointOf ex:VAV_RM-1100A .
+
 ex:BLDA.RM-1100A..DPR-C a brick:Damper_Command ;
     brick:hasUuid "20" ;
     bf:hasLocation ex:BLDA,
@@ -83,6 +89,12 @@ ex:BLDA.RM-1100D..ACTHTGSP a brick:Effective_Heating_Temperature_Setpoint ;
         ex:RM-1100D ;
     bf:isPointOf ex:VAV_RM-1100D .
 
+ex:BLDA.RM-1100D..COMMONSP a brick:Zone_Temperature_Setpoint ;
+    brick:hasUuid "30" ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-1100D ;
+    bf:isPointOf ex:VAV_RM-1100D .
+
 ex:BLDA.RM-1100D..DPR-C a brick:Damper_Command ;
     brick:hasUuid "32" ;
     bf:hasLocation ex:BLDA,
@@ -121,6 +133,12 @@ ex:BLDA.RM-2150..ACTCLGSP a brick:Effective_Cooling_Temperature_Setpoint ;
 
 ex:BLDA.RM-2150..ACTHTGSP a brick:Effective_Heating_Temperature_Setpoint ;
     brick:hasUuid "40" ;
+    bf:hasLocation ex:BLDA,
+        ex:RM-2150 ;
+    bf:isPointOf ex:VAV_RM-2150 .
+
+ex:BLDA.RM-2150..COMMONSP a brick:Zone_Temperature_Setpoint ;
+    brick:hasUuid "42" ;
     bf:hasLocation ex:BLDA,
         ex:RM-2150 ;
     bf:isPointOf ex:VAV_RM-2150 .

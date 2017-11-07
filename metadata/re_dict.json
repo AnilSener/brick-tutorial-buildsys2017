@@ -23,5 +23,6 @@
     "DIRECTION": "Run_Direction_Status",
     "DIRECT-CMD": "Run_Direction_Command",
     "FAULT": "Fault_Status",
-    "FLT_RESET": "Filter_Reset_Setpoint"
+    "FLT_RESET": "Filter_Reset_Setpoint",
+	"COMMONSP": "Zone_Temperature_Setpoint"
 }
