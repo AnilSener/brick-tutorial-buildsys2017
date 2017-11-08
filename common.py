@@ -18,7 +18,11 @@ def is_notebook():
 
 def print_graph(g):
     g_str = g.serialize(format='turtle').decode('utf-8')
+    new_g_str = ''
+    for line in g_str.split('\n'):
+        if 'prefix' not in line:
+            new_g_str += line + '\n'
     if is_notebook():
-        display(Markdown('```turtle\n' + g_str + '\n```'))
+        display(Markdown('```turtle\n' + new_g_str + '\n```'))
     else:
         print(g_str)
