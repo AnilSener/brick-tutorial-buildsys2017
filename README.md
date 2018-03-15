@@ -10,7 +10,7 @@
 ### Data Description
 - `metadata/brick_sample_building_raw.csv`: sample raw metadata from a BMS.
 - `metadata/sample_building.ttl`: Brickified sample building. Intantiated from the above file with the Brick Conversion (Full).ipynb
-- `data/`: timeseries data corresponding to UUIDs described in the metadata/brick_sample_building_raw.csv
+- `data/`: timeseries data corresponding to UUIDs described in the ``metadata/brick_sample_building_raw.csv``
 
 
 ## Resources
